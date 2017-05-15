@@ -40,6 +40,22 @@ describe("Empty argument Handling", function(){
 });
 
 
+describe("Handle appropriate input Argument", function(){
+	// spec for handling appropriate input parameters
+
+	it("should return [2,3,5] as prime values up to 5", function(){
+		expect(MyApp.getPrimeNumbers(5).toEqual([2,3,5]))
+	});
+
+	it("should return [2,3,5,7,11] as prime values up to 11", function(){
+		expect(MyApp.getPrimeNumbers(11).toEqual([2,3,5,7,11]))
+	});
+
+	it("should return [2,3,5,7] as prime values up to 7", function(){
+		expect(MyApp.getPrimeNumbers(7).toEqual(2,3,5,7))
+	});
+});
+
 
 
 
