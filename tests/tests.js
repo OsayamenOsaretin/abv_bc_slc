@@ -31,3 +31,15 @@ describe("Negative Integer Handling", function(){
 	});
 });
 
+describe("Empty argument Handling", function(){
+	// spec for handling empty parameters
+
+	it("should throw error for empty argument", function(){
+		expect(MyApp.getPrimeNumbers().toEqual("Empty Argument error, please insert a positive integer argument"))
+	});
+});
+
+
+
+
+
