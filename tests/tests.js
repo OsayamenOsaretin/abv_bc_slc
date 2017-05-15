@@ -54,7 +54,13 @@ describe("Handle appropriate input Argument", function(){
 	it("should return [2,3,5,7] as prime values up to 7", function(){
 		expect(MyApp.getPrimeNumbers(7).toEqual(2,3,5,7))
 	});
+
+	it("should return [] as prime values up to 1", function(){
+		expect(MyApp.getPrimeNumbers(1).toEqual([]))
+	});
 });
+
+
 
 
 
