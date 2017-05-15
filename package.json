@@ -2,7 +2,7 @@
   "name": "abv_bc_slc",
   "version": "1.0.0",
   "description": "Bootcamp task to demonstrate Test Driven Development",
-  "main": "index.js",
+  "main": "app/library.js",
   "directories": {
     "test": "tests"
   },
