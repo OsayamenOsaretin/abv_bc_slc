@@ -1,0 +1,22 @@
+{
+  "name": "abv_bc_slc",
+  "version": "1.0.0",
+  "description": "Bootcamp task to demonstrate Test Driven Development",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsayamenOsaretin/abv_bc_slc.git"
+  },
+  "author": "Osayamen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OsayamenOsaretin/abv_bc_slc/issues"
+  },
+  "homepage": "https://github.com/OsayamenOsaretin/abv_bc_slc#readme"
+}
